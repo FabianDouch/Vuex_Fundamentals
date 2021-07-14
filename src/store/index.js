@@ -25,19 +25,21 @@ export default createStore({
           commit('ADD_EVENT', event)
         })
         .catch(error => {
-          console.log(error)
+          throw(error)
         })
     },
     fetchEvents({ commit }) {
       EventService.getEvents()
         .then(response => {
+          console.log('respone', response)
           commit('SET_EVENTS', response.data)
         })
         .catch(error => {
-          console.log(error)
+          console.log('error', error)
+          throw(error)
         })
     },
-    fetchEvent({ commit, state }, id) {  
+    fetchEvent({ commit, state }, id) {
       const existingEvent = state.events.find(event => event.id === id)
       if (existingEvent) {
         commit('SET_EVENT', existingEvent)
@@ -47,7 +49,7 @@ export default createStore({
             commit('SET_EVENT', response.data)
           })
           .catch(error => {
-            console.log(error)
+            throw(error)
           })
       }
     }
