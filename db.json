@@ -29,6 +29,26 @@
       "date": "July 22, 2022",
       "time": "11:00",
       "organizer": "Carey Wales"
+    },
+    {
+      "id": "dd3aab93-c583-42ad-92e5-5ba8d6b62c10",
+      "category": "education",
+      "title": "dff",
+      "description": "fsfsf",
+      "location": "sdfdsf",
+      "date": "sdfdsf",
+      "time": "sdfdf",
+      "organizer": "Adam Jahr"
+    },
+    {
+      "id": "81188aae-71d4-4b5b-ae6d-a7434fb2101c",
+      "category": "food",
+      "title": "efer",
+      "description": "werewr",
+      "location": "rerewr",
+      "date": "wrer",
+      "time": "werewr",
+      "organizer": "Adam Jahr"
     }
   ]
 }
