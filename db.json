@@ -29,6 +29,26 @@
       "date": "July 22, 2022",
       "time": "11:00",
       "organizer": "Carey Wales"
+    },
+    {
+      "id": "5b9231ba-0a48-42ce-8660-4ddb5d72629b",
+      "category": "housing",
+      "title": "dfdsf",
+      "description": "sdfsdf",
+      "location": "sfsdf",
+      "date": "sdfdsf",
+      "time": "sdfdsf",
+      "organizer": "Adam Jahr"
+    },
+    {
+      "id": "7674274c-ee6f-41f8-a4cc-7bf6e6954211",
+      "category": "housing",
+      "title": "dfdsf",
+      "description": "sdfsdf",
+      "location": "sfsdf",
+      "date": "sdfdsf",
+      "time": "sdfdsf",
+      "organizer": "Adam Jahr"
     }
   ]
 }
